@@ -1,0 +1,3 @@
+[submodule "geocentr-meteodata"]
+	path = geocentr-meteodata
+	url = https://github.com/andrewdacenko/geocentr-meteodata.git
