@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/andrewdacenko/geocentr-meteodata-build",
   "dependencies": {
-    "gulp-util": "~3.0.4",
+    "enigmavirtualbox": "~0.9.3",
     "gulp": "~3.8.11",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-util": "~3.0.4",
     "node-webkit-builder": "~1.0.11",
-    "enigmavirtualbox": "~0.9.3"
+    "yargs": "^3.8.0"
   }
 }
