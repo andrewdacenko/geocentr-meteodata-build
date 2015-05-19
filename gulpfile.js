@@ -69,7 +69,7 @@ availablePlatforms.forEach(function(platform) {
 
 gulp.task('box', ['box32', 'box64']);
 
-gulp.task('box64', ['nw'], function() {
+gulp.task('box64', ['nw:win64'], function() {
   var res = ['geocentr.evp', 'geocentr.exe'].map(function(i) {
     return './release/win64/' + i;
   }).concat(['geocentr.exe',
@@ -88,7 +88,7 @@ gulp.task('box64', ['nw'], function() {
   });
 });
 
-gulp.task('box32', ['nw'], function() {
+gulp.task('box32', ['nw:win32'], function() {
   var res = ['geocentr.evp', 'geocentr.exe'].map(function(i) {
     return './release/win32/' + i;
   }).concat(['geocentr.exe',
